@@ -1,0 +1,10 @@
+import requests<br>
+
+data = {<br>
+	'method': 'REG',<br>
+	'username': 'test2',<br>
+	'password':'827CCB0EEA8A706C4C34A16891F84E7B',<br>
+	'version': '1.0'<br>
+}<br>
+result = requests.post('http://127.0.0.1:80/manage', data=data)<br>
+print(result.text)<br>

@@ -1,0 +1,606 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [12/Jul/2017 21:35:55] "GET /static/test.html HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:36:08] "GET /static/test.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:36:21] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:36:23] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:36:27] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:36:39] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:37:38] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:37:39] "GET /static/test.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:37:58] "GET /static/test.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:38:25] "GET /static/example_advance.html HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:38:31] "GET /log HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:39:03] "GET /static/api.pdf HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:39:25] "GET /static/example_advance.html HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:39:32] "GET /static/example_advance.html HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:43:31] "GET /static/example.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:43:31] "GET /static/sublime.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:43:31] "GET /static/highlight.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:44:03] "GET /log HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:44:07] "GET /static/example.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:45:23] "GET /static/sublime.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [12/Jul/2017 21:45:57] "GET /static/example.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:46:04] "GET /static/sublime.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2017 21:46:16] "GET /static/example.html HTTP/1.1" 304 -
+127.0.0.1 - - [12/Jul/2017 21:46:21] "GET /static/example.html HTTP/1.1" 304 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893", "method": "LOGIN", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "291274", "method": "LOGIN", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"request": "291274", "session": null, "userid": "371893", "method": "ADDFRIEND", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"session": null, "userid": "371893", "method": "LISTFRIEND", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"session": null, "userid": "291274", "method": "PING", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"version": "1.0", "method": "LOGIN", "userid": "371893", "password": "827CCB0EEA8A706C4C34A16891F84E7B"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"version": "1.0", "method": "LOGIN", "userid": "291274", "password": "827CCB0EEA8A706C4C34A16891F84E7B"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"version": "1.0", "session": null, "request": "291274", "method": "ADDFRIEND", "userid": "371893"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"version": "1.0", "session": null, "method": "LISTFRIEND", "userid": "371893"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"version": "1.0", "session": null, "method": "PING", "userid": "291274"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN", "userid": "371893", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN", "userid": "291274", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"session": null, "method": "ADDFRIEND", "userid": "371893", "request": "291274", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"session": null, "method": "LISTFRIEND", "userid": "371893", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"session": null, "method": "PING", "userid": "291274", "version": "1.0"}
+{"version": "1.0", "error": "3", "message": "UNKNOWN ERROR."}
+{"method": "LOGIN", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893"}
+{"message": "Version is not match.", "version": "1.0", "error": "1"}
+{"method": "LOGIN", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "291274"}
+{"message": "Version is not match.", "version": "1.0", "error": "1"}
+{"method": "ADDFRIEND", "version": "1.0", "request": "291274", "session": null, "userid": "371893"}
+{"message": "Version is not match.", "version": "1.0", "error": "1"}
+{"method": "LISTFRIEND", "version": "1.0", "session": null, "userid": "371893"}
+{"message": "Version is not match.", "version": "1.0", "error": "1"}
+{"method": "PING", "version": "1.0", "session": null, "userid": "291274"}
+{"message": "Version is not match.", "version": "1.0", "error": "1"}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "version": "1.0", "method": "LOGIN", "userid": "371893"}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893", "method": "LOGIN", "version": "1.0"}
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893", "method": "LOGIN", "version": "1.0"}
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10.213.7.242 - - [13/Jul/2017 10:07:02] "POST /manage HTTP/1.1" 200 -
+10.102.25.93 - - [13/Jul/2017 10:08:39] "GET / HTTP/1.1" 200 -
+10.102.25.93 - - [13/Jul/2017 10:08:39] "GET /favicon.ico HTTP/1.1" 404 -
+10.102.25.93 - - [13/Jul/2017 10:08:43] "GET /log HTTP/1.1" 200 -
+10.102.25.93 - - [13/Jul/2017 10:08:43] "GET /favicon.ico HTTP/1.1" 404 -
+10.102.25.93 - - [13/Jul/2017 10:08:52] "GET / HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:09:28] "GET / HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:09:29] "GET /favicon.ico HTTP/1.1" 404 -
+10.102.24.227 - - [13/Jul/2017 10:09:29] "GET /favicon.ico HTTP/1.1" 404 -
+10.102.24.227 - - [13/Jul/2017 10:09:31] "GET /log HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:11:11] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:11:11] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:11:42] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:11:43] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:11:57] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:12:22] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:12:31] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:12:54] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:13:48] "POST /manage HTTP/1.1" 200 -
+{"userid": "791160", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN"}
+{"username": "test2", "version": "1.1", "userid": "791160", "session": "3c3Y44Et", "error": "0", "message": "Success."}
+{"method": "LOGIN", "userid": "791160", "password": "96e79218965eb72c92a549dd5a330112", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+{"method": "LOGIN", "userid": "791160", "password": "96e79218965eb72c92a549dd5a330112", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+{"method": "LOGIN", "userid": "791160", "password": "d41d8cd98f00b204e9800998ecf8427e", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+{"method": "LOGIN", "userid": "791160", "password": "d41d8cd98f00b204e9800998ecf8427e", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+{"username": "pan", "method": "REG", "password": "96e79218965eb72c92a549dd5a330112", "version": "1.0"}
+{"username": "pan", "message": "Success.", "version": "1.1", "userid": "956600", "error": "0"}
+{"version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "7Ie2Rnpr", "error": "0", "message": "Success."}
+{"version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "7GW9uJ8J", "error": "0", "message": "Success."}
+{"session": "7GW9uJ8J", "request": "466808", "version": "1.0", "userid": "956600", "method": "CHAT"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+{"version": "1.0", "method": "LOGIN", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "4ioeLqqR", "error": "0", "message": "Success."}
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10.102.24.227 - - [13/Jul/2017 10:14:16] "GET /log HTTP/1.1" 200 -
+10.213.7.240 - - [13/Jul/2017 10:15:05] "POST /manage HTTP/1.1" 200 -
+10.213.7.240 - - [13/Jul/2017 10:15:05] "POST /manage HTTP/1.1" 200 -
+10.213.7.240 - - [13/Jul/2017 10:15:12] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:15:46] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:15:47] "POST /manage HTTP/1.1" 200 -
+10.213.7.242 - - [13/Jul/2017 10:16:00] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:16:28] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:18:02] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:18:07] "GET /log HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "U57ovwYu", "error": "0", "message": "Success."}
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "Zv8I5dyf", "error": "0", "message": "Success."}
+{"method": "CHAT", "userid": "466808", "session": "Zv8I5dyf", "request": "791160", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+{"userid": "956600", "method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "wH8Ast5c", "error": "0", "message": "Success."}
+{"userid": "956600", "method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "XrjXvrvR", "error": "0", "message": "Success."}
+{"userid": "956600", "method": "CHAT", "version": "1.0", "session": "XrjXvrvR", "request": "466808"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10.102.24.227 - - [13/Jul/2017 10:20:43] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:20:46] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:20:55] "GET /static/example_advance.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:20:56] "GET /static/sublime.min.css HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:20:56] "GET /static/highlight.min.js HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:21:01] "GET /static/example.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:21:09] "GET /static/test.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 10:21:13] "GET /log HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893", "method": "LOGIN", "version": "1.0"}
+{"username": "test2", "version": "1.1", "userid": "371893", "session": "IeIZ4sid", "error": "0", "message": "Success."}
+10.102.24.46 - - [13/Jul/2017 10:23:13] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "291274", "method": "LOGIN", "version": "1.0"}
+{"username": "test3", "version": "1.1", "userid": "291274", "session": "X1rutEAN", "error": "0", "message": "Success."}
+10.102.24.46 - - [13/Jul/2017 10:23:13] "POST /manage HTTP/1.1" 200 -
+{"request": "291274", "session": "IeIZ4sid", "userid": "371893", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:13] "POST /manage HTTP/1.1" 200 -
+{"session": "IeIZ4sid", "userid": "371893", "method": "LISTFRIEND", "version": "1.0"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:13] "POST /manage HTTP/1.1" 200 -
+{"session": "X1rutEAN", "userid": "291274", "method": "PING", "version": "1.0"}
+X1rutEAN
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "940273", "914310", "901017", "371893", "022584", "942120", "953081", "291274", "946338", "018346", "859365", "909366", "933160", "015092", "911161", "000345", "933260", "943332"], "message": "Success.", "version": "1.1", "want_friend": ["371893"], "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"request": "371893", "session": "X1rutEAN", "userid": "291274", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"session": "X1rutEAN", "userid": "291274", "method": "LISTFRIEND", "version": "1.0"}
+{u'371893': u'test2'}
+{"message": "Success.", "version": "1.1", "friendlist": {"371893": "test2"}, "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"request": "291274", "session": "IeIZ4sid", "userid": "371893", "method": "DELFRIEND", "version": "1.0"}
+{"message": "Success.", "version": "1.1", "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"session": "IeIZ4sid", "userid": "371893", "method": "LISTFRIEND", "version": "1.0"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"session": "IeIZ4sid", "userid": "371893", "method": "USERLIST", "version": "1.0"}
+IeIZ4sid
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "940273", "914310", "901017", "371893", "022584", "942120", "953081", "291274", "946338", "018346", "859365", "909366", "933160", "015092", "911161", "000345", "933260", "943332"], "message": "Success.", "version": "1.1", "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"session": "IeIZ4sid", "userid": "371893", "method": "PING", "version": "1.0"}
+IeIZ4sid
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "940273", "914310", "901017", "371893", "022584", "942120", "953081", "291274", "946338", "018346", "859365", "909366", "933160", "015092", "911161", "000345", "933260", "943332"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:14] "POST /manage HTTP/1.1" 200 -
+{"session": "X1rutEAN", "userid": "291274", "method": "PING", "version": "1.0"}
+X1rutEAN
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "940273", "914310", "901017", "371893", "022584", "942120", "953081", "291274", "946338", "018346", "859365", "909366", "933160", "015092", "911161", "000345", "933260", "943332"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.102.24.46 - - [13/Jul/2017 10:23:15] "POST /manage HTTP/1.1" 200 -
+10.102.24.46 - - [13/Jul/2017 10:23:57] "GET / HTTP/1.1" 200 -
+10.102.24.46 - - [13/Jul/2017 10:23:59] "GET /log HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "RXiQd0zd", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:25:55] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "NAWK8C0u", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:25:55] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "NAWK8C0u", "request": "791160", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 10:25:59] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "NAWK8C0u", "request": "791160", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 10:26:07] "POST /manage HTTP/1.1" 200 -
+{"userid": "956600", "password": "96e79218965eb72c92a549dd5a330112", "method": "LOGIN", "version": "1.0"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "qmcJXsn7", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:28:14] "POST /manage HTTP/1.1" 200 -
+{"userid": "956600", "password": "96e79218965eb72c92a549dd5a330112", "method": "LOGIN", "version": "1.0"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "mMobcCaW", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:28:15] "POST /manage HTTP/1.1" 200 -
+{"userid": "956600", "session": "mMobcCaW", "method": "CHAT", "request": "466808", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:28:25] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "password": "96e79218965eb72c92a549dd5a330112", "version": "1.0", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "gQeWVhLp", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:33:18] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "password": "96e79218965eb72c92a549dd5a330112", "version": "1.0", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "r9NkZtr1", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:33:18] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "request": "984079", "session": "r9NkZtr1", "version": "1.0", "userid": "956600"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:33:23] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "request": "984079", "session": "r9NkZtr1", "version": "1.0", "userid": "956600"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:33:23] "POST /manage HTTP/1.1" 200 -
+{"method": "PING", "session": "r9NkZtr1", "version": "1.0", "userid": "956600"}
+r9NkZtr1
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "956600", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "914310", "901017", "022584", "953081", "946338", "018346", "859365", "909366", "025241", "015092", "911161", "000345", "943332"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.213.7.242 - - [13/Jul/2017 10:33:30] "POST /manage HTTP/1.1" 200 -
+{"method": "PING", "session": "r9NkZtr1", "version": "1.0", "userid": "956600"}
+r9NkZtr1
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "956600", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "914310", "901017", "022584", "953081", "946338", "018346", "859365", "909366", "025241", "015092", "911161", "000345", "943332"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.213.7.242 - - [13/Jul/2017 10:33:33] "POST /manage HTTP/1.1" 200 -
+{"method": "PING", "session": "r9NkZtr1", "version": "1.0", "userid": "956600"}
+r9NkZtr1
+{"userlist": ["955375", "912202", "020348", "958545", "025085", "959132", "004291", "915217", "845442", "126465", "602184", "956600", "014549", "004230", "001101", "021550", "955257", "019097", "940119", "952327", "847003", "946400", "914310", "901017", "022584", "953081", "946338", "018346", "859365", "909366", "025241", "015092", "911161", "000345", "943332"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.213.7.242 - - [13/Jul/2017 10:33:36] "POST /manage HTTP/1.1" 200 -
+10.102.25.93 - - [13/Jul/2017 10:34:58] "GET /favicon.ico HTTP/1.1" 404 -
+{"password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "version": "1.0", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "OT2UNYlY", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:35:41] "POST /manage HTTP/1.1" 200 -
+{"password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "version": "1.0", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "ZKh4zZ9F", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:35:41] "POST /manage HTTP/1.1" 200 -
+{"request": "466808", "session": "ZKh4zZ9F", "userid": "956600", "version": "1.0", "method": "CHAT"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:35:47] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "nmch35pv", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:36:34] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "1HT2A39e", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:36:34] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "1HT2A39e", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 10:36:47] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "VlnNAIua", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:39:56] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "g2jJUtBV", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:39:56] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "g2jJUtBV", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 10:40:03] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "TD2lMpkE", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:42:44] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "JCuNS0Xc", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:42:45] "POST /manage HTTP/1.1" 200 -
+{"session": "JCuNS0Xc", "method": "CHAT", "version": "1.0", "request": "466808", "userid": "956600"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:42:54] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "AvX9c082", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:43:07] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "TjSzsTei", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 10:43:07] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "TjSzsTei", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 10:43:13] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "hFgvdQgC", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:43:15] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600", "method": "LOGIN"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "oD4GLSPg", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 10:43:15] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "request": "466808", "session": "oD4GLSPg", "userid": "956600", "method": "CHAT"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.242 - - [13/Jul/2017 10:43:21] "POST /manage HTTP/1.1" 200 -
+{"username": "uncle", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "REG", "version": "1.0"}
+{"username": "uncle", "message": "Success.", "version": "1.1", "userid": "812421", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:57:39] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "812421", "method": "LOGIN", "version": "1.0"}
+{"username": "uncle", "version": "1.1", "userid": "812421", "session": "OixA8xoG", "error": "0", "message": "Success."}
+10.206.32.166 - - [13/Jul/2017 10:57:41] "POST /manage HTTP/1.1" 200 -
+{"session": "OixA8xoG", "userid": "812421", "method": "PING", "version": "1.0"}
+OixA8xoG
+{"userlist": ["912202", "033459", "020348", "025085", "915217", "845442", "054548", "126465", "602184", "014549", "021550", "812421", "019097", "044298", "847003", "056512", "914310", "044437", "055074", "022584", "018346", "039536", "859365", "909366", "025241", "056388", "015092", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:57:45] "POST /manage HTTP/1.1" 200 -
+{"request": "845442", "session": "OixA8xoG", "userid": "812421", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:57:56] "POST /manage HTTP/1.1" 200 -
+{"request": "033459", "session": "OixA8xoG", "userid": "812421", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:58:08] "POST /manage HTTP/1.1" 200 -
+{"request": "021550", "session": "OixA8xoG", "userid": "812421", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:58:31] "POST /manage HTTP/1.1" 200 -
+{"session": "OixA8xoG", "userid": "812421", "method": "LISTFRIEND", "version": "1.0"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:58:34] "POST /manage HTTP/1.1" 200 -
+{"request": "859365", "session": "OixA8xoG", "userid": "812421", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:58:48] "POST /manage HTTP/1.1" 200 -
+{"request": "056388", "session": "OixA8xoG", "userid": "812421", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 10:58:56] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "zVjZonVj", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:03:53] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "u3Zuvgvu", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:03:53] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "u3Zuvgvu", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:04:00] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "FQ0cDrdv", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:05:04] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "sWyBI9B7", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:05:04] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "sWyBI9B7", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:05:09] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LOGIN", "userid": "956600", "password": "96e79218965eb72c92a549dd5a330112"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "kM1Jb7oW", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:05:39] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LOGIN", "userid": "956600", "password": "96e79218965eb72c92a549dd5a330112"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "7GVPo4oy", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:05:39] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "KHDYCYV2", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:05:48] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "Btcx7evK", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:05:48] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "Btcx7evK", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:05:53] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "FFkGlS3e", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:07:20] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "96e79218965eb72c92a549dd5a330112", "userid": "956600"}
+{"username": "pan", "version": "1.1", "userid": "956600", "session": "oLYdKDuc", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:07:21] "POST /manage HTTP/1.1" 200 -
+{"username": "uncle", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "REG", "version": "1.0"}
+{"username": "uncle", "message": "Success.", "version": "1.1", "userid": "653830", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:07:34] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "653830", "method": "LOGIN", "version": "1.0"}
+{"username": "uncle", "version": "1.1", "userid": "653830", "session": "9n8yoHtp", "error": "0", "message": "Success."}
+10.206.32.166 - - [13/Jul/2017 11:07:35] "POST /manage HTTP/1.1" 200 -
+{"request": "", "session": "9n8yoHtp", "userid": "653830", "method": "DELFRIEND", "version": "1.0"}
+{"message": "Request friend does not exist.", "version": "1.1", "error": "1"}
+10.206.32.166 - - [13/Jul/2017 11:07:39] "POST /manage HTTP/1.1" 200 -
+{"request": "", "session": "9n8yoHtp", "userid": "653830", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Request friend does not exist.", "version": "1.1", "error": "1"}
+10.206.32.166 - - [13/Jul/2017 11:07:41] "POST /manage HTTP/1.1" 200 -
+{"session": "9n8yoHtp", "userid": "653830", "method": "PING", "version": "1.0"}
+9n8yoHtp
+{"userlist": ["912202", "033459", "020348", "104141", "025085", "102301", "915217", "845442", "103404", "054548", "059568", "126465", "956600", "021550", "019097", "044298", "847003", "056512", "102266", "914310", "044437", "653830", "055074", "022584", "107239", "107286", "059495", "018346", "039536", "859365", "909366", "025241", "056388", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:07:51] "POST /manage HTTP/1.1" 200 -
+{"request": "022584", "session": "9n8yoHtp", "userid": "653830", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:07:56] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "BwuGDPD0", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:08:07] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "zE1iBCQx", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:08:07] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "zE1iBCQx", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:08:12] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "0WPnONMU", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:10:24] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "h0EInU5g", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:10:24] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "h0EInU5g", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:10:28] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "956600"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+10.213.7.242 - - [13/Jul/2017 11:17:24] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "yNQO2WXj", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:19:34] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "ZI4tiT6n", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:19:34] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "ZI4tiT6n", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:19:43] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "zAMUs266", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:35:05] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "0VSdQNPR", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:35:05] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "0VSdQNPR", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:35:09] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:36:40] "GET /static/change.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:36:56] "GET /log HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "EP59G0sf", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:37:28] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "psfZ0RIF", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:37:28] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "psfZ0RIF", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:37:34] "POST /manage HTTP/1.1" 200 -
+{"userid": "791160", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "version": "1.0", "method": "LOGIN"}
+{"username": "test2", "version": "1.1", "userid": "791160", "session": "4cTREMUc", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:38:02] "POST /manage HTTP/1.1" 200 -
+{"username": "uncle", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "REG", "version": "1.0"}
+{"username": "uncle", "message": "Success.", "version": "1.1", "userid": "614612", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:39:49] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "614612", "method": "LOGIN", "version": "1.0"}
+{"username": "uncle", "version": "1.1", "userid": "614612", "session": "bXQnIe3Y", "error": "0", "message": "Success."}
+10.206.32.166 - - [13/Jul/2017 11:39:51] "POST /manage HTTP/1.1" 200 -
+{"session": "bXQnIe3Y", "userid": "614612", "method": "PING", "version": "1.0"}
+bXQnIe3Y
+{"userlist": ["912202", "033459", "123101", "136063", "104141", "025085", "121460", "102301", "915217", "103404", "054548", "059568", "126465", "117016", "125311", "847003", "056512", "102266", "914310", "055074", "119432", "107239", "107286", "059495", "614612", "128249", "039536", "859365", "909366", "056388", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:39:53] "POST /manage HTTP/1.1" 200 -
+{"request": "102266", "session": "bXQnIe3Y", "userid": "614612", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.166 - - [13/Jul/2017 11:40:00] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:40:16] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:42:11] "GET /log HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "VsG3CZoE", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:44:07] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "8tdMCYV6", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 11:44:08] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "8tdMCYV6", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 11:44:18] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:44:42] "GET /static/api.pdf HTTP/1.1" 404 -
+10.102.24.227 - - [13/Jul/2017 11:45:24] "GET / HTTP/1.1" 200 -
+{"method": "LOGIN", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "791160"}
+{"username": "test2", "version": "1.1", "userid": "791160", "session": "JJWL5Ir9", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:45:33] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "version": "1.0", "method": "LOGIN", "userid": "791160"}
+{"username": "test2", "version": "1.1", "userid": "791160", "session": "rG6jH2FV", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 11:48:24] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 11:52:51] "GET /log HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "371893", "method": "LOGIN", "version": "1.0"}
+{"username": "test2", "version": "1.1", "userid": "371893", "session": "raTVy258", "error": "0", "message": "Success."}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "291274", "method": "LOGIN", "version": "1.0"}
+{"username": "test3", "version": "1.1", "userid": "291274", "session": "f8ARqSYK", "error": "0", "message": "Success."}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"request": "291274", "session": "raTVy258", "userid": "371893", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"session": "raTVy258", "userid": "371893", "method": "LISTFRIEND", "version": "1.0"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"session": "f8ARqSYK", "userid": "291274", "method": "PING", "version": "1.0"}
+f8ARqSYK
+{"userlist": ["912202", "123101", "136063", "025085", "121460", "915217", "126465", "117016", "125311", "847003", "914310", "119432", "371893", "291274", "128249", "039536", "859365", "909366", "911161"], "message": "Success.", "version": "1.1", "want_friend": ["371893"], "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"request": "371893", "session": "f8ARqSYK", "userid": "291274", "method": "ADDFRIEND", "version": "1.0"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"session": "f8ARqSYK", "userid": "291274", "method": "LISTFRIEND", "version": "1.0"}
+{u'371893': u'test2'}
+{"message": "Success.", "version": "1.1", "friendlist": {"371893": "test2"}, "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"request": ["371893"], "session": "f8ARqSYK", "userid": "291274", "method": "CHAT", "version": "1.0"}
+{"topic": {"[u'371893']": ["/371893/raTVy258/QoS_0", "/371893/raTVy258/QoS_1", "/371893/raTVy258/QoS_2"]}, "message": "Success.", "version": "1.1", "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"request": "291274", "session": "raTVy258", "userid": "371893", "method": "DELFRIEND", "version": "1.0"}
+{"message": "Success.", "version": "1.1", "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"session": "raTVy258", "userid": "371893", "method": "LISTFRIEND", "version": "1.0"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:48] "POST /manage HTTP/1.1" 200 -
+{"session": "raTVy258", "userid": "371893", "method": "USERLIST", "version": "1.0"}
+raTVy258
+{"userlist": ["912202", "123101", "136063", "025085", "121460", "915217", "126465", "117016", "125311", "847003", "914310", "119432", "371893", "291274", "128249", "039536", "859365", "909366", "911161"], "message": "Success.", "version": "1.1", "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:49] "POST /manage HTTP/1.1" 200 -
+{"session": "raTVy258", "userid": "371893", "method": "PING", "version": "1.0"}
+raTVy258
+{"userlist": ["912202", "123101", "136063", "025085", "121460", "915217", "126465", "117016", "125311", "847003", "914310", "119432", "371893", "291274", "128249", "039536", "859365", "909366", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:49] "POST /manage HTTP/1.1" 200 -
+{"session": "f8ARqSYK", "userid": "291274", "method": "PING", "version": "1.0"}
+f8ARqSYK
+{"userlist": ["912202", "123101", "136063", "025085", "121460", "915217", "126465", "117016", "125311", "847003", "914310", "119432", "371893", "291274", "128249", "039536", "859365", "909366", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+127.0.0.1 - - [13/Jul/2017 11:58:49] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:00:51] "GET /log HTTP/1.1" 200 -
+{"userid": "956600", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+10.213.7.242 - - [13/Jul/2017 12:00:53] "POST /manage HTTP/1.1" 200 -
+{"userid": "791160", "version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN"}
+{"username": "test2", "version": "1.1", "userid": "791160", "session": "wHDYBOUV", "error": "0", "message": "Success."}
+10.213.7.242 - - [13/Jul/2017 12:01:33] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN", "userid": "951160", "version": "1.0"}
+10.213.7.242 - - [13/Jul/2017 12:02:46] "POST /manage HTTP/1.1" 500 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "NLQB386O", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:02:49] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "EMnrZdWI", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:02:50] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "EMnrZdWI", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 12:02:54] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "956600", "method": "LOGIN", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+10.213.7.242 - - [13/Jul/2017 12:03:17] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "4225z2gD", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:03:33] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "6spwCJe8", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:03:33] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "6spwCJe8", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 12:03:37] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "method": "LOGIN", "userid": "956600"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+10.213.7.242 - - [13/Jul/2017 12:03:41] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:03:56] "GET /log HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:04:41] "GET /log HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+10.102.24.227 - - [13/Jul/2017 12:04:56] "GET /log HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "version": "1.0", "method": "LOGOUT", "session": "", "userid": ""}
+{"message": "Session is expired or you need login.", "version": "1.1", "error": "1"}
+10.206.32.209 - - [13/Jul/2017 12:06:31] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "version": "1.0", "method": "LOGOUT", "session": "", "userid": ""}
+{"message": "Session is expired or you need login.", "version": "1.1", "error": "1"}
+10.206.32.209 - - [13/Jul/2017 12:06:32] "POST /manage HTTP/1.1" 200 -
+{"password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "956600", "method": "LOGIN", "version": "1.0"}
+{"message": "Wrong password.", "version": "1.1", "error": "1"}
+10.213.7.242 - - [13/Jul/2017 12:06:42] "POST /manage HTTP/1.1" 200 -
+{"username": "ZHL", "version": "1.0", "method": "REG", "password": "827CCB0EEA8A706C4C34A16891F84E7B"}
+{"username": "ZHL", "message": "Success.", "version": "1.1", "userid": "604935", "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:06:43] "POST /manage HTTP/1.1" 200 -
+{"username": "ZHL", "version": "1.0", "method": "REG", "password": "827CCB0EEA8A706C4C34A16891F84E7B"}
+{"username": "ZHL", "message": "Success.", "version": "1.1", "userid": "524950", "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:06:50] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "LGnwP6gY", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:06:55] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "CgdpCY2M", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:06:55] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "CgdpCY2M", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 12:06:59] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LOGIN", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950"}
+{"username": "ZHL", "version": "1.1", "userid": "524950", "session": "K84KiYkq", "error": "0", "message": "Success."}
+10.206.32.209 - - [13/Jul/2017 12:07:01] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "PING", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "session": "K84KiYkq"}
+K84KiYkq
+{"userlist": ["123101", "136063", "025085", "121460", "126465", "117016", "524950", "125311", "847003", "466808", "914310", "119432", "128249", "911161"], "message": "Success.", "version": "1.1", "want_friend": [], "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:07:12] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LISTFRIEND", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "session": "K84KiYkq"}
+{}
+{"message": "Success.", "version": "1.1", "friendlist": {}, "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:07:17] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "USERLIST", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "session": "K84KiYkq"}
+K84KiYkq
+{"userlist": ["123101", "136063", "025085", "121460", "126465", "524950", "125311", "847003", "914310", "119432", "128249", "911161"], "message": "Success.", "version": "1.1", "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:07:29] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:07:30] "GET / HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "CcW1hqQG", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:07:31] "POST /manage HTTP/1.1" 200 -
+{"method": "LOGIN", "userid": "466808", "password": "e10adc3949ba59abbe56e057f20f883e", "version": "1.0"}
+{"username": "su123", "version": "1.1", "userid": "466808", "session": "JwbKlcUb", "error": "0", "message": "Success."}
+10.213.7.240 - - [13/Jul/2017 12:07:31] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LOGIN", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950"}
+{"username": "ZHL", "version": "1.1", "userid": "524950", "session": "e1fpP80L", "error": "0", "message": "Success."}
+10.206.32.209 - - [13/Jul/2017 12:07:40] "POST /manage HTTP/1.1" 200 -
+{"method": "CHAT", "userid": "466808", "session": "JwbKlcUb", "request": "956600", "version": "1.0"}
+{"topic": {}, "message": "Some user is not online.", "version": "1.1", "error": "2"}
+10.213.7.240 - - [13/Jul/2017 12:07:45] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "request": "847003", "method": "ADDFRIEND", "session": "e1fpP80L"}
+{"message": "Success. But your friend need to confirm.", "version": "1.1", "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:07:54] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "request": "847003", "method": "DELFRIEND", "session": "e1fpP80L"}
+{"message": "NO USER HAS BEEN DEL..", "version": "1.1", "error": "1"}
+10.206.32.209 - - [13/Jul/2017 12:08:08] "POST /manage HTTP/1.1" 200 -
+{"version": "1.0", "method": "LOGOUT", "password": "827CCB0EEA8A706C4C34A16891F84E7B", "userid": "524950", "session": "e1fpP80L"}
+{"message": "Success.", "version": "1.1", "error": "0"}
+10.206.32.209 - - [13/Jul/2017 12:08:20] "POST /manage HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:08:33] "GET /static/none.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:08:38] "GET /static/example_advance.html HTTP/1.1" 200 -
+10.102.24.227 - - [13/Jul/2017 12:08:38] "GET /static/sublime.min.css HTTP/1.1" 304 -
+10.102.24.227 - - [13/Jul/2017 12:08:38] "GET /static/highlight.min.js HTTP/1.1" 304 -
